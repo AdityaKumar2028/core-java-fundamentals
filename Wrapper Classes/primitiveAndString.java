@@ -7,7 +7,6 @@ public class primitiveAndString {
 
         byte res = Byte.parseByte(str);
 
-        System.out.println(res);
     }
 
 }

@@ -1,13 +1,14 @@
 public class objectReference {
-    int x;
-
     objectReference() {
-        System.out.println(this);
-        System.out.println(this.x);
+        System.out.println("Object Refeerence")
     }
 
     public static void main(String[] args) {
-        objectReference obj1 = new objectReference();
+        objectReference obj = new objectReference();
+        System.out.println(obj);
+
         objectReference obj2 = new objectReference();
+        System.out.println(obj2);
+
     }
 }

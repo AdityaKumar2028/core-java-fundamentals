@@ -9,13 +9,12 @@ public class division {
         numerator = obj.nextInt();
         System.out.print("Enter the denominator: ");
         denominator = obj.nextInt();
+        try {
+            result = numerator / denominator;
+            System.out.println("Result is: " + result);
+        } catch (Exception e) {
+            System.out.println("Exception occured " + e);
+        }
 
-        result = numerator / denominator;
-
-        System.out.println("Result is: " + result);
-
-        System.out.println(10 / 0);
-
-        System.out.println("More code further");
     }
 }

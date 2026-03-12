@@ -14,6 +14,8 @@ public class division {
 
         System.out.println("Result is: " + result);
 
+        System.out.println(10 / 0);
+
         System.out.println("More code further");
     }
 }

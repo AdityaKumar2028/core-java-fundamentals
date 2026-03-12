@@ -1,6 +1,6 @@
 public class objectReference {
     objectReference() {
-        System.out.println("Object Refeerence")
+        System.out.println("Object Refeerence");
     }
 
     public static void main(String[] args) {
